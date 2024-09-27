@@ -1,0 +1,28 @@
+input{
+    display: block;
+    background-color: rgb(226, 248, 248);
+    width: 400px;
+    padding: 5px;
+    margin: 5;
+}
+.result{
+    color:rgb(255, 255, 255);
+    background-color:rgb(18, 5, 139);
+    padding-left: 15px;
+    text-align: center;
+    margin-top: 10px ;
+    width: 445px;
+    
+    border: 4px solid black;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 22px;
+}
+button{
+    background-color: navy;
+    color: whitesmoke;
+    width: 123px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 10px;
+}

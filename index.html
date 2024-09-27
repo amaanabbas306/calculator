@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>table gemneter</h1>
+    <label for="Total number">which table want you genret</label>
+    <input type="number" id="input1">
+    <label for="">how many tyoe do you want multiplay?</label>
+    <input type="number" id = "input2">
+    <button onclick="tableGenerator()">Result</button>
+    <div class="result"></div>
+    <script>
+        function tableGenerator(){
+            let input1 = Number(document.querySelector("#input1").value);
+            let input2 = Number(document.querySelector("#input2").value);
+    
+            let result = "";
+    
+            for(let i=1; i <= input2; i++){
+                result += input1 + " x " + i + " = " + (input1 * i) + "<br>";
+            }
+    
+            document.querySelector(".result").innerHTML = result;
+        }
+      
+    </script>
+</body>
+</html>
